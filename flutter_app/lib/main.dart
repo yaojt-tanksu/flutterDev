@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/widgets/ListViewWidget.dart';
+import 'package:flutter_app/widgets/WidgetDetail.dart';
 
 import 'RandomWords.dart';
+import 'artical/ArticalDetail.dart';
+import 'comment/CommentDetail.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,11 +14,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new RandomWords(),
+//      home: new RandomWords(),
+//      home:new ArticalDetail(),
+//      home:new CommentDetail(),
+//        home: new WidgetDetail(),
+        home: new ListViewWidget(),
+
+
 //      home: new Scaffold(
 //        appBar: new AppBar(
 //          title: new Text("Scaffold title"),

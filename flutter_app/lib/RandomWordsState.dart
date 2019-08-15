@@ -15,10 +15,11 @@ class RandomWordsState extends State<RandomWords> {
 
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("RandomWordsState Scaffold title"),
+        title: new Text("Scaffold title",),
         actions: <Widget>[
           new IconButton(icon: new Icon(Icons.list), onPressed: _pushSaved)
         ],
+        centerTitle: true,
       ),
       body: _buildSuggestions(),
     );
