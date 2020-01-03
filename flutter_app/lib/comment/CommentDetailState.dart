@@ -15,9 +15,9 @@ class CommentDetailState extends State<CommentDetail> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             Expanded(
-              child: new Column(
+              child:  Column(
                 children: <Widget>[
-                  new Container(
+                   Container(
                     padding: EdgeInsets.only(top: 10),
                     child: new Text(
                       "StrawBerry Pavlova",
@@ -25,7 +25,7 @@ class CommentDetailState extends State<CommentDetail> {
                       style: new TextStyle(fontSize: 20, color: Colors.black),
                     ),
                   ),
-                  new Container(
+                   Container(
                     padding: EdgeInsets.only(top: 10),
                     child: new Text(
                       "The day broke gray and dullThe day broke gray and "

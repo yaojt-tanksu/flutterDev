@@ -12,7 +12,7 @@ class ListViewWidgetState extends State<ListViewWidget> {
 
   Widget buildList() {
     var list = new Scaffold(
-        appBar: new AppBar(centerTitle: true, title: new Text("listview")),
+        appBar: new AppBar(centerTitle: true, title: new Text("listview demo")),
         body: new ListView.builder(
           itemCount: 100,
           itemExtent: 40,
@@ -54,7 +54,7 @@ class ListViewWidgetState extends State<ListViewWidget> {
       new MaterialPageRoute(builder: (BuildContext context){
         return new Scaffold(
           appBar: new AppBar(
-            title: Text("image view"),
+            title: Text("item detail"),
             centerTitle: true,
           ),
           body: Center(

@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/stack/StackWidget.dart';
+import 'package:flutter_app/widgets/FlowWidget.dart';
 import 'package:flutter_app/widgets/ListViewWidget.dart';
 import 'package:flutter_app/widgets/WidgetDetail.dart';
+import 'package:flutter_app/widgets/WrapUse.dart';
+import 'package:flutter_app/widgets/WrapWidget.dart';
 
 import 'RandomWords.dart';
 import 'artical/ArticalDetail.dart';
+import 'card/CardWidget.dart';
 import 'comment/CommentDetail.dart';
 
 void main() => runApp(MyApp());
@@ -14,18 +19,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+//        home :FlowWidget(),
+        home: WrapWidget(),
+//        home: WrapUse(),
 //      home: new RandomWords(),
 //      home:new ArticalDetail(),
 //      home:new CommentDetail(),
 //        home: new WidgetDetail(),
-        home: new ListViewWidget(),
+//        home: new ListViewWidget(),
 
-
+//    home: StackWidget(),
+//    home:CardWidget(),
 //      home: new Scaffold(
 //        appBar: new AppBar(
 //          title: new Text("Scaffold title"),
