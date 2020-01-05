@@ -5,6 +5,7 @@ import 'package:flutter_app/widgets/ListViewWidget.dart';
 import 'package:flutter_app/widgets/WidgetDetail.dart';
 import 'package:flutter_app/widgets/WrapUse.dart';
 import 'package:flutter_app/widgets/WrapWidget.dart';
+import 'package:flutter_app/widgets/gridview.dart';
 
 import 'RandomWords.dart';
 import 'artical/ArticalDetail.dart';
@@ -26,8 +27,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      //Gridview控件
+      home: GridViewBuilder(),
       //列表加载更多
-      home: ListViewBuilder(),
+//      home: ListViewBuilder(),
       //底部tab切换控件
 //      home: BottomNavigationWidget(),
       //上下拉刷新控件
