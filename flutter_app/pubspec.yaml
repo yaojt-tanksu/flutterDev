@@ -26,6 +26,8 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   fluttertoast: ^3.0.3
+  #上下刷新加载
+  pull_to_refresh: ^1.5.7
 
 dev_dependencies:
   flutter_test:
@@ -51,6 +53,8 @@ flutter:
     - images/lake.jpg
     - images/logo.jpg
     - images/earth.jpg
+    - images/up.png
+    - images/down.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

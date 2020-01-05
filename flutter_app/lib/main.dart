@@ -8,8 +8,10 @@ import 'package:flutter_app/widgets/WrapWidget.dart';
 
 import 'RandomWords.dart';
 import 'artical/ArticalDetail.dart';
+import 'bottomTab/BottomNavigationWidget.dart';
 import 'card/CardWidget.dart';
 import 'comment/CommentDetail.dart';
+import 'widgets/listmore.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,8 +26,16 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      //列表加载更多
+      home: ListViewBuilder(),
+      //底部tab切换控件
+//      home: BottomNavigationWidget(),
+      //上下拉刷新控件
+//      home: RefereshUpDown(),
+      //listview的滚动监听
+//      home: ListViewItem(),
 //        home :FlowWidget(),
-        home: WrapWidget(),
+//        home: WrapWidget(),
 //        home: WrapUse(),
 //      home: new RandomWords(),
 //      home:new ArticalDetail(),
