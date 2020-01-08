@@ -6,6 +6,7 @@ import 'package:flutter_app/widgets/WidgetDetail.dart';
 import 'package:flutter_app/widgets/WrapUse.dart';
 import 'package:flutter_app/widgets/WrapWidget.dart';
 import 'package:flutter_app/widgets/gridview.dart';
+import 'package:flutter_app/widgets/scrollView.dart';
 
 import 'RandomWords.dart';
 import 'artical/ArticalDetail.dart';
@@ -27,8 +28,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      //scrollview 控件
+//      home: MinePageWidget(),
+      home: ScrollViewWidget(),
+//      home: CustomScrollViewRoute(),
       //Gridview控件
-      home: GridViewBuilder(),
+//      home: GridViewBuilder(),
       //列表加载更多
 //      home: ListViewBuilder(),
       //底部tab切换控件
