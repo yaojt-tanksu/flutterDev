@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/stack/StackWidget.dart';
+import 'package:flutter_app/stack/StackWidgetDetail.dart';
 import 'package:flutter_app/widgets/FlowWidget.dart';
 import 'package:flutter_app/widgets/ListViewWidget.dart';
 import 'package:flutter_app/widgets/WidgetDetail.dart';
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       ),
       //scrollview 控件
 //      home: MinePageWidget(),
-      home: ScrollViewWidget(),
+//      home: ScrollViewWidget(),
 //      home: CustomScrollViewRoute(),
       //Gridview控件
 //      home: GridViewBuilder(),
@@ -51,6 +51,7 @@ class MyApp extends StatelessWidget {
 //        home: new WidgetDetail(),
 //        home: new ListViewWidget(),
 
+    home: StackWidgetLayout(),
 //    home: StackWidget(),
 //    home:CardWidget(),
 //      home: new Scaffold(
