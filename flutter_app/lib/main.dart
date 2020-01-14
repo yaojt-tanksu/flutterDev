@@ -9,10 +9,14 @@ import 'package:flutter_app/widgets/gridview.dart';
 import 'package:flutter_app/widgets/scrollView.dart';
 
 import 'RandomWords.dart';
+import 'appwidget/pageLifeCircle.dart';
+import 'appwidget/startPage.dart';
 import 'artical/ArticalDetail.dart';
 import 'bottomTab/BottomNavigationWidget.dart';
 import 'card/CardWidget.dart';
+import 'codeStyle/codeTest.dart';
 import 'comment/CommentDetail.dart';
+import 'key/keyUse.dart';
 import 'widgets/listmore.dart';
 
 void main() => runApp(MyApp());
@@ -28,6 +32,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      //key的使用
+      home: KeyUseWidget(),
+//      home: ChainCodeWidget(),
+      //生命周期
+//      home: LifeStartPage(),
       //scrollview 控件
 //      home: MinePageWidget(),
 //      home: ScrollViewWidget(),
@@ -51,7 +60,7 @@ class MyApp extends StatelessWidget {
 //        home: new WidgetDetail(),
 //        home: new ListViewWidget(),
 
-    home: StackWidgetLayout(),
+//    home: StackWidgetLayout(),
 //    home: StackWidget(),
 //    home:CardWidget(),
 //      home: new Scaffold(
